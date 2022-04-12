@@ -1,0 +1,83 @@
+﻿body {
+    background-image:url(../images/pic3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.main-card {
+    max-width: 80%;
+    margin: 13% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.38);
+    min-height:410px;
+    color: darkslategrey;
+    padding: 1rem 3rem;
+
+}
+ .main-card h3 {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+article{
+    padding:1rem 2rem;
+    font-size: 3.5rem;
+    border:5px dotted darkslategrey;
+    color:#fff;
+    min-height:150px;
+   
+}
+.btn-primary {
+    padding: 1rem 2rem;
+    /*margin-bottom: 10rem;*/
+    font-weight: bolder;
+    font-size: 4rem;
+    color: darkslategrey;
+    background-color: rgba(255, 255, 255, 0.29);
+    border: none;
+    box-shadow: darkslategrey 2px 3px 0.5em;
+    margin-right: 3rem;
+    margin-top: 1.5%;
+    text-transform:uppercase;
+}
+    .btn-primary:focus {
+        color: darkslategrey;
+        background-color: rgba(255, 255, 255, 0.29);
+        outline:none;
+    }
+ .btn-primary:hover {
+        color: white;
+        background-color:rgba(2, 79, 11, 0.45);
+        transition:2s;
+ }
+
+
+
+
+
+
+/*Media Queries*/
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .main-card {
+        max-width: 100%;
+        margin: 10% 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-card {
+        max-width: 100%;
+        margin: 10% 0;
+    }
+
+        .main-card p {
+            font-size: 2.5rem;
+        }
+}

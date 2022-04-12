@@ -1,0 +1,18 @@
+﻿.bg{
+    background-color:darkgreen;
+    color:#ffffff;
+    padding:5rem 2rem;
+}
+.b-green-card h3{
+    font-size:5rem;
+}
+.b-green-card p{
+    font-size:2rem;
+    color:#ffffff;
+}
+.b-green-card P>a{
+    border:2px solid #ffffff;
+    padding:1rem 1rem;
+    color:#ffffff;
+    cursor:pointer;
+}
